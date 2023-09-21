@@ -1,0 +1,23 @@
+.header, .sidebar, .content {
+    background-color: cornflowerblue;
+    border-style: double;
+    border-color: red;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    
+}
+.header{
+    grid-column: 2/4;
+    
+
+}
+.content{
+    grid-column: 2/4;
+}
+.sidebar {
+ grid-row: 1; 
+ 
+
+}
